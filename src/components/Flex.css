@@ -1,6 +1,10 @@
 /* ----------------------- flex container elements ----------------------- */
 
 .flex-container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around; /* push things away as much as they can */
+    gap: 10vw; /* em - closely tied to font size; vh - viewport height; vw = viewport width */
 
 }
 
